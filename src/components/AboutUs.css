@@ -1,0 +1,11 @@
+.about-container {
+    margin: 4rem 6rem;
+    text-align: start;
+}
+.about-container h1 {
+    padding-bottom: 1.5rem;
+}
+.about-container p {
+    padding-bottom: 2rem;
+    line-height: 1.4rem;
+}

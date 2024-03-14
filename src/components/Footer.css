@@ -1,0 +1,28 @@
+.footer {
+    padding: 4rem 6rem;
+    background: #000;
+    color: #fff;
+
+}
+
+.top {
+
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bottom {
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bottom div {
+    display: flex;
+    flex-direction: column;
+}

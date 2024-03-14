@@ -1,0 +1,80 @@
+.destination {
+    margin: 4rem 6rem;
+}
+
+.destination h1 {
+    font-size: 3rem;
+    padding-bottom: 1.8rem;
+}
+
+.first-des {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+.first-des-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.des-text {
+    width: 45%;
+    text-align: start;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.des-text h2 {
+    padding-bottom: 1.8rem;
+    font-size: 32px;
+}
+
+.image {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.image img {
+    width: 45%;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgb(127, 127, 127);
+    filter: none;
+}
+
+.image img:nth-child(2) {
+    position: absolute;
+    top: -14%;
+    right: 0;
+}
+
+@media screen and (max-width: 850px) {
+    .destination {
+
+        margin: 4rem 2rem;
+    }
+    .first-des {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .des-text {
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+    .image img{
+        height: 240px;
+    }
+}
