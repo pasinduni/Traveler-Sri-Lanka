@@ -20,8 +20,8 @@ function Contact(props) {
                 <a href={props.url} className={props.btnClass}>{props.btnText}</a>
             </div>
 
-            <ContactForm/>
-            <Footer/>
+            <ContactForm />
+            <Footer />
         </>
     )
 }

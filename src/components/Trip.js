@@ -1,6 +1,5 @@
 import "./Trip.css";
 import TripData from "./TripData";
-import Hero from "./Hero";
 
 function Trip(props) {
     return (

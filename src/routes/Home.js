@@ -21,7 +21,7 @@ function Home(props) {
             <div className="hero-text">
                 <a href={props.url} className={props.btnClass}>{props.btnText}</a>
             </div>
-            
+
             <Destination />
             <Trip />
             <ContactForm />
